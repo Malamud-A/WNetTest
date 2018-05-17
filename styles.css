@@ -12,6 +12,11 @@ body {
   align-items: center;
   padding: 50px 50px 25px;
 }
+.app-container::before, .app-container::after {
+  width: 100%;
+  content: "";
+  order: 1;
+}
 .app-container .link {
   text-transform: uppercase;
   color: #5fc5be;
@@ -22,6 +27,7 @@ body {
   color: #5fc5be;
 }
 .app-container .pay-container {
+  order: 1;
   position: relative;
   display: flex;
   flex-flow: column;
@@ -110,6 +116,7 @@ body {
 }
 .app-container .history {
   margin-top: 30px;
+  max-width: 1200px;
   border-radius: 5px;
   background-color: #ffffff;
   box-shadow: 0 5px 37.2px 2.8px rgba(0, 0, 0, 0.05);
@@ -117,6 +124,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
+  order: 2;
 }
 .app-container .history h2 {
   text-transform: uppercase;
