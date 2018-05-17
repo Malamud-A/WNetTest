@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Test</title>
+</head>
+<body>
+<div class="app-container">
+    <div class="pay-container amount-due">
+        <div class="top-line green-gradient"></div>
+        <img src="assets/icon_amount_green.svg" alt="">
+        <h3>amount due</h3>
+        <p>Billing period <span>01/02/2018 - 01/31/2018</span></p>
+        <h2><span>$</span>50</h2>
+        <p>Due date <span>02/28/2018</span></p>
+        <a class="link" href="#">view my bill <i class="fas fa-chevron-right"></i></a>
+        <button class="btn">pay</button>
+    </div>
+    <div class="pay-container auto-pay">
+        <div class="top-line blue-gradient"></div>
+        <img src="assets/icon_auto_pay.svg">
+        <h3>auto-pay</h3>
+        <p>
+            You already have auto payment<br>
+            via Stripe/Paypal on sum <span>$57</span> and is paid<br>
+            automatically on 17-th day of month. Next<br>
+            payment will be done on <span>12/17/2017</span>
+        </p>
+        <button class="btn">manage</button>
+    </div>
+    <div class="history">
+        <h2>last account activities</h2>
+        <table>
+            <thead>
+            <tr>
+                <th class="table-padding"></th>
+                <th>Date</th>
+                <th>Activity</th>
+                <th>Sum</th>
+                <th>Balance</th>
+                <th class="table-padding"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="table-padding"></td>
+                <td><span class="date">12/11/17</span><br>05:34 pm</td>
+                <td>Internet fee</td>
+                <td><span class="balance red">- $1.00</span></td>
+                <td><span class="balance green">$19.00</span></td>
+                <td class="table-padding"></td>
+            </tr>
+            <tr>
+                <td class="table-padding"></td>
+                <td><span class="date">12/11/17</span><br>05:27 pm</td>
+                <td>Payment via PayPal</td>
+                <td><span class="balance green">$10.00</span></td>
+                <td><span class="balance green">$18.00</span></td>
+                <td class="table-padding"></td>
+            </tr>
+            <tr>
+                <td class="table-padding"></td>
+                <td><span class="date">12/11/17</span><br>12:52 pm</td>
+                <td>Internet fee</td>
+                <td><span class="balance red">- $50.00</span></td>
+                <td><span class="balance red">- $8.00</span></td>
+                <td class="table-padding"></td>
+            </tr>
+            <tr>
+                <td class="table-padding"></td>
+                <td><span class="date">12/11/17</span><br>12:52 pm</td>
+                <td>Payment via PayPal</td>
+                <td><span class="balance green">$10.00</span></td>
+                <td><span class="balance green">$18.00</span></td>
+                <td class="table-padding"></td>
+            </tr>
+            <tr>
+                <td class="table-padding"></td>
+                <td><span class="date">12/11/17</span><br>12:52 pm</td>
+                <td>Internet fee</td>
+                <td><span class="balance green">$1.00</span></td>
+                <td><span class="balance green">$8.00</span></td>
+                <td class="table-padding"></td>
+            </tr>
+            </tbody>
+        </table>
+        <a class="link" href="#">all transactions <i class="fas fa-chevron-right"></i></a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,188 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.app-container {
+  width: 100%;
+  background-color: #f7f8f9;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px 25px;
+}
+.app-container .link {
+  text-transform: uppercase;
+  color: #5fc5be;
+  text-decoration: none;
+  font-weight: 600;
+}
+.app-container .link:visited {
+  color: #5fc5be;
+}
+.app-container .pay-container {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  padding: 15px 0 45px 0;
+  box-sizing: border-box;
+  align-items: center;
+  height: 450px;
+  max-width: 400px;
+  min-width: 380px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 37.2px 2.8px rgba(0, 0, 0, 0.05);
+}
+.app-container .pay-container .top-line {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 9px;
+  border-radius: 5px 5px 0 0;
+}
+.app-container .pay-container .top-line.green-gradient {
+  background: linear-gradient(90deg, #007429 0%, #86d073 100%);
+}
+.app-container .pay-container .top-line.blue-gradient {
+  background: linear-gradient(90deg, #0067c6 0%, #35c4ee 100%);
+}
+.app-container .pay-container img {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  top: 25px;
+}
+.app-container .pay-container h3 {
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 35px;
+  margin-bottom: 0;
+  color: #3e3d42;
+  font-size: 20px;
+}
+.app-container .pay-container .btn {
+  height: 42px;
+  width: 40%;
+  border: 1.5px solid #5fc5be;
+  color: #5fc5be;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 22px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: auto;
+  cursor: pointer;
+}
+.app-container .pay-container .btn:hover {
+  background: #5fc5be;
+  color: #fff;
+}
+.app-container .pay-container.auto-pay p {
+  font-size: 16px;
+  text-align: center;
+  color: #3e3d42;
+}
+.app-container .pay-container.auto-pay p span {
+  font-size: 18px;
+  font-weight: 700;
+}
+.app-container .pay-container.amount-due {
+  margin-right: 2%;
+}
+.app-container .pay-container.amount-due p {
+  font-size: 14px;
+  color: #75737d;
+}
+.app-container .pay-container.amount-due p span {
+  font-weight: 600;
+  font-size: 15px;
+}
+.app-container .pay-container.amount-due h2 {
+  margin: 0;
+  color: #3e3d42;
+  font-size: 50px;
+}
+.app-container .pay-container.amount-due h2 span {
+  font-size: 35px;
+}
+.app-container .history {
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 37.2px 2.8px rgba(0, 0, 0, 0.05);
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.app-container .history h2 {
+  text-transform: uppercase;
+  color: #3e3d42;
+  font-size: 20px;
+  line-height: 30px;
+}
+.app-container .history table {
+  width: 75%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.app-container .history table thead {
+  background: #f6f9fb;
+  color: #75737d;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  height: 50px;
+}
+.app-container .history table thead tr {
+  border: none;
+  height: 50px;
+  border-radius: 2px;
+}
+.app-container .history table thead tr:nth-child(2) {
+  text-align: left;
+  padding-left: 2%;
+}
+.app-container .history table thead tr:nth-child(3) {
+  text-align: left;
+}
+.app-container .history table tr {
+  color: #3e3d42;
+  height: 60px;
+}
+.app-container .history table tr td {
+  border-bottom: 1px solid #efefef;
+}
+.app-container .history table tr td:nth-child(2) {
+  font-size: 15px;
+  padding-left: 2%;
+  text-align: left;
+}
+.app-container .history table tr td:nth-child(2) span {
+  font-weight: 600;
+}
+.app-container .history table tr td:nth-child(3) {
+  text-align: left;
+}
+.app-container .history table tr td .balance {
+  font-size: 18px;
+  font-weight: 600;
+}
+.app-container .history table tr td .balance.red {
+  color: #f50000;
+}
+.app-container .history table tr td .balance.green {
+  color: #008735;
+}
+.app-container .history table .table-padding {
+  width: 15px;
+  border: none;
+}
+.app-container .history .link {
+  margin: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */
