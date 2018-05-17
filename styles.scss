@@ -142,11 +142,11 @@ body {
           border: none;
           height: 50px;
           border-radius: 2px;
-          &:nth-child(2) {
+          th:nth-child(2) {
             text-align: left;
             padding-left: 2%;
           }
-          &:nth-child(3) {
+          th:nth-child(3) {
             text-align: left;
           }
         }
@@ -237,7 +237,7 @@ body {
       table{
         width: 95%;
         thead{
-          font-size: 12px;
+          font-size: 10px;
           .table-padding{
             display: none;
           }
@@ -246,7 +246,7 @@ body {
           text-align: center !important;
           tr{
             td{
-              font-size: 12px !important;
+              font-size: 10px !important;
               &:nth-child(2){
                 white-space: nowrap;
               }
@@ -257,9 +257,9 @@ body {
                 display: none;
               }
               span{
-                font-size: 12px;
+                font-size: 10px;
                 &.balance{
-                  font-size: 14px;
+                  font-size: 12px;
                   white-space: nowrap;
                 }
               }

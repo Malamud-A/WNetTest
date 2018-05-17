@@ -142,11 +142,11 @@ body {
   height: 50px;
   border-radius: 2px;
 }
-.app-container .history table thead tr:nth-child(2) {
+.app-container .history table thead tr th:nth-child(2) {
   text-align: left;
   padding-left: 2%;
 }
-.app-container .history table thead tr:nth-child(3) {
+.app-container .history table thead tr th:nth-child(3) {
   text-align: left;
 }
 .app-container .history table tr {
@@ -227,7 +227,7 @@ body {
     width: 95%;
   }
   .app-container .history table thead {
-    font-size: 12px;
+    font-size: 10px;
   }
   .app-container .history table thead .table-padding {
     display: none;
@@ -236,7 +236,7 @@ body {
     text-align: center !important;
   }
   .app-container .history table tbody tr td {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
   .app-container .history table tbody tr td:nth-child(2) {
     white-space: nowrap;
@@ -248,10 +248,10 @@ body {
     display: none;
   }
   .app-container .history table tbody tr td span {
-    font-size: 12px;
+    font-size: 10px;
   }
   .app-container .history table tbody tr td span.balance {
-    font-size: 14px;
+    font-size: 12px;
     white-space: nowrap;
   }
 }
