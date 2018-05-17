@@ -30,7 +30,7 @@ body {
   align-items: center;
   height: 450px;
   max-width: 400px;
-  min-width: 380px;
+  min-width: 290px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 37.2px 2.8px rgba(0, 0, 0, 0.05);
@@ -183,6 +183,61 @@ body {
 }
 .app-container .history .link {
   margin: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .app-container .link {
+    font-size: 14px;
+  }
+  .app-container .pay-container h3 {
+    font-size: 16px;
+  }
+  .app-container .pay-container .btn {
+    font-size: 14px;
+  }
+  .app-container .pay-container.amount-due {
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+  .app-container .pay-container.amount-due p {
+    font-size: 14px;
+  }
+  .app-container .pay-container.amount-due p span {
+    font-size: 14px;
+  }
+  .app-container .pay-container.amount-due h2 {
+    font-size: 40px;
+  }
+  .app-container .pay-container.amount-due h2 span {
+    font-size: 30px;
+  }
+  .app-container .pay-container.auto-pay p {
+    font-size: 14px;
+  }
+  .app-container .pay-container.auto-pay p span {
+    font-size: 16px;
+  }
+  .app-container .history h2 {
+    font-size: 14px;
+  }
+  .app-container .history table {
+    width: 95%;
+  }
+  .app-container .history table thead {
+    font-size: 12px;
+  }
+  .app-container .history table tbody {
+    text-align: center !important;
+  }
+  .app-container .history table tbody tr td {
+    font-size: 12px !important;
+  }
+  .app-container .history table tbody tr td span {
+    font-size: 12px;
+  }
+  .app-container .history table tbody tr td span.balance {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

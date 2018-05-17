@@ -32,7 +32,7 @@ body {
     align-items: center;
     height: 450px;
     max-width: 400px;
-    min-width: 380px;
+    min-width: 290px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 5px 37.2px 2.8px rgba(0, 0, 0, 0.05);
@@ -192,3 +192,68 @@ body {
 }
 
 
+@media screen and (max-width: 800px) {
+  .app-container{
+    .link{
+      font-size: 14px;
+    }
+    .pay-container{
+      h3{
+        font-size: 16px;
+      }
+      .btn{
+        font-size: 14px;
+      }
+      &.amount-due{
+        margin-bottom: 25px;
+        margin-right: 0;
+        p{
+          font-size: 14px;
+          span{
+            font-size: 14px;
+          }
+        }
+        h2{
+          font-size: 40px;
+          span{
+            font-size: 30px;
+          }
+        }
+      }
+      &.auto-pay{
+        p{
+          font-size: 14px;
+          span{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .history{
+      h2{
+        font-size: 14px;
+      }
+      table{
+        width: 95%;
+        thead{
+          font-size: 12px;
+        }
+        tbody{
+          text-align: center !important;
+          tr{
+            td{
+              font-size: 12px !important;
+              span{
+                font-size: 12px;
+                &.balance{
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}
