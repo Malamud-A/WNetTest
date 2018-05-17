@@ -194,6 +194,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .app-container{
+    flex-flow: column;
     .link{
       font-size: 14px;
     }
