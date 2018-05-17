@@ -201,6 +201,9 @@ body {
   .app-container .link {
     font-size: 14px;
   }
+  .app-container .pay-container {
+    padding: 15px 15px 45px;
+  }
   .app-container .pay-container h3 {
     font-size: 16px;
   }
