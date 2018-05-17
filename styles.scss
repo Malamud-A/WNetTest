@@ -238,16 +238,27 @@ body {
         width: 95%;
         thead{
           font-size: 12px;
+          .table-padding{
+            display: none;
+          }
         }
         tbody{
           text-align: center !important;
           tr{
             td{
               font-size: 12px !important;
+              padding: 3px;
+              &:nth-child(2){
+                white-space: nowrap;
+              }
+              &.table-padding{
+                display: none;
+              }
               span{
                 font-size: 12px;
                 &.balance{
                   font-size: 14px;
+                  white-space: nowrap;
                 }
               }
             }

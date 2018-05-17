@@ -229,17 +229,28 @@ body {
   .app-container .history table thead {
     font-size: 12px;
   }
+  .app-container .history table thead .table-padding {
+    display: none;
+  }
   .app-container .history table tbody {
     text-align: center !important;
   }
   .app-container .history table tbody tr td {
     font-size: 12px !important;
+    padding: 3px;
+  }
+  .app-container .history table tbody tr td:nth-child(2) {
+    white-space: nowrap;
+  }
+  .app-container .history table tbody tr td.table-padding {
+    display: none;
   }
   .app-container .history table tbody tr td span {
     font-size: 12px;
   }
   .app-container .history table tbody tr td span.balance {
     font-size: 14px;
+    white-space: nowrap;
   }
 }
 
