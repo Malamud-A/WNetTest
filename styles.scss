@@ -247,9 +247,11 @@ body {
           tr{
             td{
               font-size: 12px !important;
-              padding: 3px;
               &:nth-child(2){
                 white-space: nowrap;
+              }
+              &:nth-child(3){
+                padding-left: 6px;
               }
               &.table-padding{
                 display: none;
